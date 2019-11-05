@@ -11,6 +11,7 @@ gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'sqlite3', '~> 1.3.6'
+ gem 'letter_opener', '~> 1.4', '>= 1.4.1'
 end
 
 group :production do
