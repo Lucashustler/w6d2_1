@@ -1,4 +1,6 @@
 class Event < ApplicationRecord
+
+    #info to provide when creating an event
     validates :start_date, presence: true
     validates :duration, presence: true
     validates :title, presence: true
